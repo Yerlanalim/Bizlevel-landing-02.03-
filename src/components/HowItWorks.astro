@@ -13,7 +13,7 @@
     
     <div class="relative">
       <!-- Timeline line -->
-      <div class="hidden md:block absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-primary/20"></div>
+      <div class="hidden md:block absolute left-1/2 transform -translate-x-1/2 w-1 bg-primary/20" style="height: calc(100% - 180px); top: 0;"></div>
       
       <!-- Steps -->
       <div class="space-y-12">
@@ -101,113 +101,113 @@
           </div>
         </div>
       </div>
+    </div>
+    
+    <!-- Skill Tree -->
+    <div class="mt-20 bg-gray-50 p-8 rounded-lg shadow-sm">
+      <div class="text-center mb-8">
+        <h3 class="text-2xl font-bold mb-3">Ваше дерево навыков (Skill Tree)</h3>
+        <p class="text-gray-700">
+          По мере прохождения уровней вы формируете свое уникальное дерево бизнес-навыков, 
+          как в RPG-играх. Каждый новый навык открывает доступ к более продвинутым инструментам.
+        </p>
+      </div>
       
-      <!-- Skill Tree -->
-      <div class="mt-20 bg-gray-50 p-8 rounded-lg shadow-sm">
-        <div class="text-center mb-8">
-          <h3 class="text-2xl font-bold mb-3">Ваше дерево навыков (Skill Tree)</h3>
-          <p class="text-gray-700">
-            По мере прохождения уровней вы формируете свое уникальное дерево бизнес-навыков, 
-            как в RPG-играх. Каждый новый навык открывает доступ к более продвинутым инструментам.
-          </p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-white p-4 rounded-lg shadow-sm border-l-4 border-primary">
+          <h4 class="text-lg font-semibold mb-2">Маркетинг</h4>
+          <div class="space-y-2">
+            <div>
+              <div class="flex justify-between items-center mb-1">
+                <span class="text-sm font-medium">Анализ целевой аудитории</span>
+                <span class="text-xs bg-green-100 text-green-800 px-2 py-1 rounded">Освоено</span>
+              </div>
+              <div class="h-1.5 w-full bg-gray-200 rounded-full">
+                <div class="h-1.5 bg-green-500 rounded-full" style="width: 100%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between items-center mb-1">
+                <span class="text-sm font-medium">Воронка продаж</span>
+                <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded">В процессе</span>
+              </div>
+              <div class="h-1.5 w-full bg-gray-200 rounded-full">
+                <div class="h-1.5 bg-blue-500 rounded-full" style="width: 60%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between items-center mb-1">
+                <span class="text-sm font-medium">Контент-стратегия</span>
+                <span class="text-xs bg-gray-100 text-gray-800 px-2 py-1 rounded">Закрыто</span>
+              </div>
+              <div class="h-1.5 w-full bg-gray-200 rounded-full">
+                <div class="h-1.5 bg-gray-400 rounded-full" style="width: 0%"></div>
+              </div>
+            </div>
+          </div>
         </div>
         
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div class="bg-white p-4 rounded-lg shadow-sm border-l-4 border-primary">
-            <h4 class="text-lg font-semibold mb-2">Маркетинг</h4>
-            <div class="space-y-2">
-              <div>
-                <div class="flex justify-between items-center mb-1">
-                  <span class="text-sm font-medium">Анализ целевой аудитории</span>
-                  <span class="text-xs bg-green-100 text-green-800 px-2 py-1 rounded">Освоено</span>
-                </div>
-                <div class="h-1.5 w-full bg-gray-200 rounded-full">
-                  <div class="h-1.5 bg-green-500 rounded-full" style="width: 100%"></div>
-                </div>
+        <div class="bg-white p-4 rounded-lg shadow-sm border-l-4 border-secondary">
+          <h4 class="text-lg font-semibold mb-2">Финансы</h4>
+          <div class="space-y-2">
+            <div>
+              <div class="flex justify-between items-center mb-1">
+                <span class="text-sm font-medium">Расчет точки безубыточности</span>
+                <span class="text-xs bg-green-100 text-green-800 px-2 py-1 rounded">Освоено</span>
               </div>
-              <div>
-                <div class="flex justify-between items-center mb-1">
-                  <span class="text-sm font-medium">Воронка продаж</span>
-                  <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded">В процессе</span>
-                </div>
-                <div class="h-1.5 w-full bg-gray-200 rounded-full">
-                  <div class="h-1.5 bg-blue-500 rounded-full" style="width: 60%"></div>
-                </div>
+              <div class="h-1.5 w-full bg-gray-200 rounded-full">
+                <div class="h-1.5 bg-green-500 rounded-full" style="width: 100%"></div>
               </div>
-              <div>
-                <div class="flex justify-between items-center mb-1">
-                  <span class="text-sm font-medium">Контент-стратегия</span>
-                  <span class="text-xs bg-gray-100 text-gray-800 px-2 py-1 rounded">Закрыто</span>
-                </div>
-                <div class="h-1.5 w-full bg-gray-200 rounded-full">
-                  <div class="h-1.5 bg-gray-400 rounded-full" style="width: 0%"></div>
-                </div>
+            </div>
+            <div>
+              <div class="flex justify-between items-center mb-1">
+                <span class="text-sm font-medium">Управление денежным потоком</span>
+                <span class="text-xs bg-gray-100 text-gray-800 px-2 py-1 rounded">Закрыто</span>
+              </div>
+              <div class="h-1.5 w-full bg-gray-200 rounded-full">
+                <div class="h-1.5 bg-gray-400 rounded-full" style="width: 0%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between items-center mb-1">
+                <span class="text-sm font-medium">Финансовое планирование</span>
+                <span class="text-xs bg-gray-100 text-gray-800 px-2 py-1 rounded">Закрыто</span>
+              </div>
+              <div class="h-1.5 w-full bg-gray-200 rounded-full">
+                <div class="h-1.5 bg-gray-400 rounded-full" style="width: 0%"></div>
               </div>
             </div>
           </div>
-          
-          <div class="bg-white p-4 rounded-lg shadow-sm border-l-4 border-secondary">
-            <h4 class="text-lg font-semibold mb-2">Финансы</h4>
-            <div class="space-y-2">
-              <div>
-                <div class="flex justify-between items-center mb-1">
-                  <span class="text-sm font-medium">Расчет точки безубыточности</span>
-                  <span class="text-xs bg-green-100 text-green-800 px-2 py-1 rounded">Освоено</span>
-                </div>
-                <div class="h-1.5 w-full bg-gray-200 rounded-full">
-                  <div class="h-1.5 bg-green-500 rounded-full" style="width: 100%"></div>
-                </div>
+        </div>
+        
+        <div class="bg-white p-4 rounded-lg shadow-sm border-l-4 border-purple-500">
+          <h4 class="text-lg font-semibold mb-2">Управление</h4>
+          <div class="space-y-2">
+            <div>
+              <div class="flex justify-between items-center mb-1">
+                <span class="text-sm font-medium">Найм персонала</span>
+                <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded">В процессе</span>
               </div>
-              <div>
-                <div class="flex justify-between items-center mb-1">
-                  <span class="text-sm font-medium">Управление денежным потоком</span>
-                  <span class="text-xs bg-gray-100 text-gray-800 px-2 py-1 rounded">Закрыто</span>
-                </div>
-                <div class="h-1.5 w-full bg-gray-200 rounded-full">
-                  <div class="h-1.5 bg-gray-400 rounded-full" style="width: 0%"></div>
-                </div>
-              </div>
-              <div>
-                <div class="flex justify-between items-center mb-1">
-                  <span class="text-sm font-medium">Финансовое планирование</span>
-                  <span class="text-xs bg-gray-100 text-gray-800 px-2 py-1 rounded">Закрыто</span>
-                </div>
-                <div class="h-1.5 w-full bg-gray-200 rounded-full">
-                  <div class="h-1.5 bg-gray-400 rounded-full" style="width: 0%"></div>
-                </div>
+              <div class="h-1.5 w-full bg-gray-200 rounded-full">
+                <div class="h-1.5 bg-blue-500 rounded-full" style="width: 30%"></div>
               </div>
             </div>
-          </div>
-          
-          <div class="bg-white p-4 rounded-lg shadow-sm border-l-4 border-purple-500">
-            <h4 class="text-lg font-semibold mb-2">Управление</h4>
-            <div class="space-y-2">
-              <div>
-                <div class="flex justify-between items-center mb-1">
-                  <span class="text-sm font-medium">Найм персонала</span>
-                  <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded">В процессе</span>
-                </div>
-                <div class="h-1.5 w-full bg-gray-200 rounded-full">
-                  <div class="h-1.5 bg-blue-500 rounded-full" style="width: 30%"></div>
-                </div>
+            <div>
+              <div class="flex justify-between items-center mb-1">
+                <span class="text-sm font-medium">Мотивация команды</span>
+                <span class="text-xs bg-gray-100 text-gray-800 px-2 py-1 rounded">Закрыто</span>
               </div>
-              <div>
-                <div class="flex justify-between items-center mb-1">
-                  <span class="text-sm font-medium">Мотивация команды</span>
-                  <span class="text-xs bg-gray-100 text-gray-800 px-2 py-1 rounded">Закрыто</span>
-                </div>
-                <div class="h-1.5 w-full bg-gray-200 rounded-full">
-                  <div class="h-1.5 bg-gray-400 rounded-full" style="width: 0%"></div>
-                </div>
+              <div class="h-1.5 w-full bg-gray-200 rounded-full">
+                <div class="h-1.5 bg-gray-400 rounded-full" style="width: 0%"></div>
               </div>
-              <div>
-                <div class="flex justify-between items-center mb-1">
-                  <span class="text-sm font-medium">Делегирование</span>
-                  <span class="text-xs bg-gray-100 text-gray-800 px-2 py-1 rounded">Закрыто</span>
-                </div>
-                <div class="h-1.5 w-full bg-gray-200 rounded-full">
-                  <div class="h-1.5 bg-gray-400 rounded-full" style="width: 0%"></div>
-                </div>
+            </div>
+            <div>
+              <div class="flex justify-between items-center mb-1">
+                <span class="text-sm font-medium">Делегирование</span>
+                <span class="text-xs bg-gray-100 text-gray-800 px-2 py-1 rounded">Закрыто</span>
+              </div>
+              <div class="h-1.5 w-full bg-gray-200 rounded-full">
+                <div class="h-1.5 bg-gray-400 rounded-full" style="width: 0%"></div>
               </div>
             </div>
           </div>
